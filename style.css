@@ -34,3 +34,8 @@ body{
     display: none;
     padding: 10ex;
 }
+
+.accordion-header.active {
+    background-color: rgb(179, 179, 233); /* Change background color for active header */
+    color: #333; /* Change text color for active header */
+  }
