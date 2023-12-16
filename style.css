@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding and border are included in the width and height */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.accordian{
+    width: 300px;
+}
+
+.accordian-item{
+    border:  1px solid gray;
+    margin-bottom: 5px;
+}
+
+.accordian-header{
+    background-color: #b4a6a6;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.accordian-content{
+    display: none;
+    padding: 10ex;
+}
